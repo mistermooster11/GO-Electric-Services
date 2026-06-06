@@ -50,7 +50,7 @@
 .hero__bg-image {
   position: absolute;
   inset: 0;
-  background-image: url("/wp-assets/Title-Background-Image-scaled.webp");
+  background-image: url("/images/hero-poster.webp");
   background-position: 50% 50%;
   background-size: cover;
   z-index: 0;

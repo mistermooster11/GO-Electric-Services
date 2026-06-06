@@ -42,11 +42,11 @@ export default function FAQSection() {
         <div className="faq__left">
           <div className="faq__eyebrow">Frequently Asked Questions</div>
           <h2 className="faq__heading">
-            Know More About Our Unclogging Services in Miami-Dade, broward &amp; Palm beach
+            Common Questions About GO Electric Services
           </h2>
           <p className="faq__subtext">
-            Find clear answers about our residential and commercial unclogging, grease trap
-            cleaning, emergency response, and ongoing maintenance services across Miami-Dade County.
+            Find clear answers about our electrical services, licensing, permits, service area,
+            and what to expect when you call GO Electric in Palm Beach County.
           </p>
           <Link href="/faq/" className="faq__btn">
             View FAQ

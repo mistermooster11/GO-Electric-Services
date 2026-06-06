@@ -66,11 +66,11 @@ export default function ServicesSection() {
       <div className="services__header max-w-6xl! mx-auto">
         <div className="services__label">Our Services</div>
         <h2 className="services__heading">
-          Professional Unclogging &amp; Drain Solutions in Miami-Dade, broward &amp; Palm beach
+          Licensed Electrical Services in Palm Beach County
         </h2>
         <p className="services__subtext">
-          Reliable residential and commercial services designed to prevent backups, restore flow,
-          and keep your property compliant and running smoothly across Miami-Dade County.
+          Residential, commercial, panel upgrades, generator installation, and smart home electrical
+          — all permitted, inspected, and done right throughout Palm Beach County.
         </p>
       </div>
 

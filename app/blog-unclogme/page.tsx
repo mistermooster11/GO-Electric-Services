@@ -6,17 +6,18 @@ import BlogSection from "@/components/custom/blog/BlogSection";
 import NeedServicesSection from "@/components/custom/need-services/NeedServicesSection";
 
 export const metadata: Metadata = {
-  title: "Blog — UnclogMe | Drain & Grease Trap Tips & Insights",
+  title: "Blog — GO Electric Services | Electrical Tips & Insights",
   description:
-    "Read UnclogMe's blog for expert tips on grease trap maintenance, drain unclogging, and keeping your residential or commercial plumbing in top shape.",
+    "Expert tips on panel upgrades, generator installation, EV chargers, and home electrical safety from GO Electric Services in Palm Beach County.",
 };
 
 export default function BlogPage() {
   return (
     <>
       <PageHeroSection
-        title="Blog"
-        subtitle="Expert tips, industry insights, and service guides from the UnclogMe team."
+        title="Electrical Insights"
+        subtitle="Expert tips, industry guides, and electrical safety advice from the GO Electric Services team."
+        bgImage="/images/library-suggestions/electrician-installing-wiring-outlet.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Blog" },
