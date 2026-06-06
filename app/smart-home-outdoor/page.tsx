@@ -19,6 +19,7 @@ export default function SmartHomeOutdoorPage() {
       <PageHeroSection
         title="Smart Home & Outdoor Electrical"
         subtitle="Smart home automation, security cameras, landscape lighting, pool & spa electrical, and boat dock wiring — installed right by licensed Palm Beach County electricians."
+        bgImage="/images/library-suggestions/technician-installing-ceiling-light-fixture.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },

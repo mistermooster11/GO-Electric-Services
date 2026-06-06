@@ -19,6 +19,7 @@ export default function CommercialElectricalPage() {
       <PageHeroSection
         title="Commercial Electrical"
         subtitle="Licensed commercial electrical contractors for HOAs, golf clubs, retail, office buildings, and multi-unit properties throughout Palm Beach County."
+        bgImage="/images/library-suggestions/electrician-inspecting-electrical-panel-installation.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },

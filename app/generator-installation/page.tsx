@@ -19,6 +19,7 @@ export default function GeneratorInstallationPage() {
       <PageHeroSection
         title="Generator Installation"
         subtitle="Authorized Generac dealer since 2016 — whole-home standby and portable generator installation, permitting, and activation throughout Palm Beach County."
+        bgImage="/images/library-suggestions/electrical-panel-utility-box-exterior.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },

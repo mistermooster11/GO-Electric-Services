@@ -19,6 +19,7 @@ export default function PanelUpgradesPage() {
       <PageHeroSection
         title="Panel Upgrades"
         subtitle="200-amp service upgrades, breaker panel replacements, and sub-panel installations — all permitted, inspected, and NEC-compliant."
+        bgImage="/images/library-suggestions/electrician-testing-electrical-panel-multimeter.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },

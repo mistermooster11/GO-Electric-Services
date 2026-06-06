@@ -18,6 +18,7 @@ export default function FAQPage() {
       <PageHeroSection
         title="Frequently Asked Questions"
         subtitle="Everything you need to know about our services, pricing, and process."
+        bgImage="/images/library-suggestions/electrician-installing-circuit-breaker-panel.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "FAQ" },

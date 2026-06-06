@@ -349,12 +349,12 @@
   overflow: hidden;
 }
 
-/* Background image */
+/* Background image — set via data-bg attribute or inline style on section */
 .page-hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("/wp-assets/Title-Background-Image-scaled.webp");
+  background-image: var(--page-hero-bg, url("/images/library-suggestions/electrician-examining-circuit-breaker-panel.jpg"));
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

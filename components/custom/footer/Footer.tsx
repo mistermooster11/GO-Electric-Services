@@ -10,12 +10,12 @@ export default function Footer() {
         <div className="footer__brand">
           <Link href="/">
             <Image
-              src="/images/logo-image-50.png"
-              alt="UnclogMe Logo"
-              width={239}
-              height={58}
+              src="/go-electric-logo_lightbg.png"
+              alt="GO Electric Services Logo"
+              width={200}
+              height={60}
               className="footer__logo"
-              style={{ height: "auto" }}
+              style={{ height: "auto", filter: "brightness(0) invert(1)" }}
             />
           </Link>
           <p className="footer__desc">

@@ -9,49 +9,60 @@ export type PricingCard = {
 
 export const pricingCards: PricingCard[] = [
   {
-    price: 249,
-    note: "No hidden fees. No weekend surcharge",
-    title: "Manual Unclogging",
-    features: ["Toilets", "Sinks & drains", "Showers & tubs", "Dishwasher", "Washing machine"],
-    description:
-      "We use low pressure drain blaster, a mechanical or motorized snake depending on your installation.",
-  },
-  {
-    price: 399,
-    note: "No hidden fees. No weekend surcharge",
-    title: "Camera Inspection",
+    price: 0,
+    note: "Free estimates on all projects",
+    title: "Residential Electrical",
     features: [
-      "Sewer line video inspection",
-      "Crack, root, and obstruction detection",
-      "High-resolution recording for reports",
+      "Outlets, switches & fixtures",
+      "Full home rewiring",
+      "Lighting & ceiling fans",
+      "Code corrections",
+      "Pool & spa electrical",
     ],
     description:
-      "Our endoscopic camera gives real-time visuals so we can diagnose issues without digging or guesswork.\n\nPrice per pipe. Pipes must be drained.",
+      "From a single outlet repair to a ground-up rewire, we handle all residential electrical work in Palm Beach County. Every job permitted and inspected.",
   },
   {
-    price: 349,
-    note: "No hidden fees. No weekend surcharge",
-    title: "Hydro Jet Unclogging",
+    price: 0,
+    note: "Free estimates on all projects",
+    title: "Panel Upgrades",
     features: [
-      "Clears sewer & main lines",
-      "Removes grease, scale, and heavy buildup",
-      "Restores full pipe flow",
+      "200-amp service upgrades",
+      "Breaker panel replacement",
+      "Sub-panel installation",
+      "Meter changes",
+      "Whole-home surge protection",
     ],
     description:
-      "High-pressure hydro jetting reaches deeper and cleans better than traditional unclogging tools.\n\nPrice is per line. Residential rate.",
+      "Older panels can't support modern loads. We upgrade to 200-amp service safely — pulling all permits and passing final inspection before we close out.",
     highlight: true,
   },
   {
-    price: 399,
-    note: "No hidden fees. No weekend surcharge",
-    title: "Grease Trap Pumping & Maintenance",
+    price: 0,
+    note: "Authorized Generac dealer since 2016",
+    title: "Generator Installation",
     features: [
-      "Complete pumping and interior cleaning",
-      "Inlet & outlet drain line flushing",
-      "Preventive maintenance for surrounding drains",
-      "Inspection and detailed compliance report",
+      "Whole-home Generac standby",
+      "Portable generator setup",
+      "Emergency power inlet boxes",
+      "Transfer switch (ATS) install",
+      "Full permit & activation",
     ],
     description:
-      "Ideal for restaurants and food-service facilities needing fast, reliable, compliant service.\n\nLicensed hauler. Price varies by trap size.",
+      "We manage the entire Generac installation process — consultation, permitting, electrical connection, and final activation. One call, one team.",
+  },
+  {
+    price: 0,
+    note: "Free estimates on all projects",
+    title: "Commercial Electrical",
+    features: [
+      "HOA & multi-unit buildings",
+      "Breaker panels & sub-panels",
+      "Motor control systems",
+      "Commercial code compliance",
+      "24-hour emergency response",
+    ],
+    description:
+      "We work on commercial projects of all sizes — golf clubs, retail, offices, and HOAs throughout Palm Beach County. Fully licensed, insured, and permit-ready.",
   },
 ];

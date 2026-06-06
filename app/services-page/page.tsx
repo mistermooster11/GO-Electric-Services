@@ -17,6 +17,7 @@ export default function ServicesPage() {
       <PageHeroSection
         title="Our Services"
         subtitle="Licensed residential and commercial electrical services throughout Palm Beach County — from panel upgrades and full rewires to generator installs and smart home automation."
+        bgImage="/images/library-suggestions/electrician-examining-circuit-breaker-panel.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },

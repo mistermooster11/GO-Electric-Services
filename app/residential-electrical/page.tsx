@@ -19,6 +19,7 @@ export default function ResidentialElectricalPage() {
       <PageHeroSection
         title="Residential Electrical"
         subtitle="Licensed electrical work for homes throughout Palm Beach County — wiring, lighting, repairs, and full rewires done right."
+        bgImage="/images/library-suggestions/electrician-installing-outlet-wall.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services", href: "/services-page/" },

@@ -66,10 +66,10 @@ export default function Header() {
         <div className="header__logo">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/go-electric-logo_lightbg.png"
               alt="GO Electric Services"
               width={200}
-              height={44}
+              height={60}
               priority
               style={{ width: "100%", maxWidth: 200, height: "auto" }}
             />

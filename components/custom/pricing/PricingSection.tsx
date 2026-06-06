@@ -81,12 +81,12 @@ export default function PricingSection() {
     <section className="pricing" ref={sectionRef}>
       {/* Header */}
       <div className="pricing__header">
-        <div className="pricing__label">Pricing</div>
-        <h2 className="pricing__heading">Request for intervention</h2>
+        <div className="pricing__label">Our Services</div>
+        <h2 className="pricing__heading">What We Do Best</h2>
         <p className="pricing__subtext">
-          Clear and upfront pricing for residential and commercial unclogging, grease trap
-          cleaning, emergency services, and ongoing maintenance — with no hidden fees
-          across Miami-Dade County.
+          Licensed electrical services for homes and businesses throughout Palm Beach County.
+          Free estimates on every project — residential, commercial, panel upgrades,
+          and generator installation.
         </p>
       </div>
 
@@ -111,10 +111,18 @@ export default function PricingSection() {
                 <div className="pricing-card__badge">Best Choice</div>
               )}
               <div className="pricing-card__body">
-                {/* Price */}
+                {/* Price / CTA label */}
                 <div className="pricing-card__price-row">
-                  <span className="pricing-card__currency">$</span>
-                  <span className="pricing-card__amount">{card.price}</span>
+                  {card.price > 0 ? (
+                    <>
+                      <span className="pricing-card__currency">$</span>
+                      <span className="pricing-card__amount">{card.price}</span>
+                    </>
+                  ) : (
+                    <span className="pricing-card__amount" style={{ fontSize: "28px", letterSpacing: "-1px" }}>
+                      Free Estimate
+                    </span>
+                  )}
                   <div className="pricing-card__note">
                     {card.note.split(".").filter(Boolean).map((n, j) => (
                       <div key={j}>{n.trim()}</div>

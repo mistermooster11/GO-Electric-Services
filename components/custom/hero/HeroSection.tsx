@@ -51,23 +51,25 @@ export default function HeroSection() {
 
   return (
     <section className="hero">
-      {/* Video background */}
+      {/* Cloudflare Stream video background */}
       <div className="hero__video-bg">
-        {/* TODO: Replace video src with GO Electric hero video. Upload to /public/videos/hero.mp4 */}
-        {/* TODO: Replace poster with GO Electric hero background image at /public/images/hero-poster.webp */}
-        <video
-          autoPlay
-          muted
-          playsInline
-          loop
-          poster="/images/hero-poster.webp"
+        <iframe
+          src="https://customer-ip9lnkk65px0t3ak.cloudflarestream.com/c630587b72fe39af8facf531ee4ec17f/iframe?autoplay=true&muted=true&loop=true&controls=false&playsinline=true"
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            width: "177.78vh",
+            height: "56.25vw",
+            minWidth: "100%",
+            minHeight: "100%",
+            transform: "translate(-50%, -50%)",
+            border: "none",
+            pointerEvents: "none",
+          }}
+          allow="autoplay; fullscreen"
           aria-hidden="true"
-        >
-          <source
-            src="/videos/hero.mp4"
-            type="video/mp4"
-          />
-        </video>
+        />
       </div>
 
       {/* Content */}

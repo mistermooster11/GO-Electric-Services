@@ -20,6 +20,7 @@ export default function AboutPage() {
       <PageHeroSection
         title="About Us"
         subtitle="Veteran-owned electrical contractor serving Palm Beach County since 2016 — licensed, insured, and built on military precision."
+        bgImage="/images/library-suggestions/electrician-inspecting-residential-electrical-panel.jpg"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "About Us" },

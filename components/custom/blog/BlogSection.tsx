@@ -36,7 +36,7 @@ export default function BlogSection() {
   return (
     <section className="blog" ref={sectionRef}>
       <div className="blog__header">
-        <div className="blog__eyebrow">Blog UnclogMe</div>
+        <div className="blog__eyebrow">Electrical Insights</div>
         <h2 className="blog__heading">Built on Experience. Shared Through Knowledge.</h2>
         <Link href="/blog-unclogme/" className="blog__view-btn">
           View Blog
@@ -44,7 +44,7 @@ export default function BlogSection() {
       </div>
 
       <div className="blog__grid">
-        {blogPosts.map((post, i) => (
+        {blogPosts.slice(0, 2).map((post, i) => (
           <article key={i} className="blog-card">
             <div className="blog-card__media">
               <Link href={post.slug}>
